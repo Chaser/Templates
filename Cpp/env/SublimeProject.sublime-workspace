@@ -7,8 +7,16 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "SublimeProject.sublime-project",
+			"settings":
+			{
+				"buffer_size": 73,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "Packages/Java/JavaC.sublime-build",
+	"build_system": "Packages/Makefile/Make.sublime-build",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -35,6 +43,8 @@
 	},
 	"file_history":
 	[
+		"/D/Development/Workspace/Templates/Cpp/makefile",
+		"/D/Development/Workspace/Templates/Cpp/env/SublimeProject.sublime-project"
 	],
 	"find":
 	{
@@ -72,8 +82,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "SublimeProject.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 73,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
