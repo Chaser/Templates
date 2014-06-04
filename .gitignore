@@ -20,7 +20,7 @@ proguard/
 
 # generated files
 bin/
-gen/
+build/
 
 
 

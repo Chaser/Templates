@@ -8,11 +8,11 @@
 	"buffers":
 	[
 		{
-			"file": "SublimeProject.sublime-project",
+			"file": "/F/DevWorkspaces/Templates/Cpp/src/main/HelloWorld.cpp",
 			"settings":
 			{
-				"buffer_size": 73,
-				"line_ending": "Unix"
+				"buffer_size": 106,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -43,12 +43,13 @@
 	},
 	"file_history":
 	[
+		"/F/DevWorkspaces/Templates/Cpp/env/SublimeProject.sublime-project",
 		"/D/Development/Workspace/Templates/Cpp/makefile",
 		"/D/Development/Workspace/Templates/Cpp/env/SublimeProject.sublime-project"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -87,24 +88,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "SublimeProject.sublime-project",
-					"semi_transient": false,
+					"file": "/F/DevWorkspaces/Templates/Cpp/src/main/HelloWorld.cpp",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 73,
+						"buffer_size": 106,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								67,
-								67
+								106,
+								106
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -118,7 +119,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -158,7 +159,7 @@
 	"project": "SublimeProject.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
