@@ -37,3 +37,13 @@ build 	  	  	Build output. Created and deleted by the build file. Not under vers
      +-- libs 	  	  	 
      +-- classes 	  	  	 
      +-- test
+
+
+Build Notes
+  Compiling Command Line
+    -In project root directory call javac ./src/main/java/*.classes -d ./build/classes
+    *Build/classes has to exist!
+
+  Running Command Line
+    -In project root directory call java -classpath ./build/classes (PackageName)/(entrypoint)
+    *Example java -classpath ./build/classes Strategy.MiniDuckSimulator
