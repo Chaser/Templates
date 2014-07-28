@@ -7,8 +7,27 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/cjohnson/Documents/Frameworks/Templates/EmbC/src/main/HelloWorld.c",
+			"settings":
+			{
+				"buffer_size": 97,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# ==========================================\n#   Template Project\n#   Copyright (c) 2014 Chase Johnson\n# ========================================== \n\nPROJECT_DIR = ..\nTARGET_BASE = HelloWorld\n\nCOMPILER = gcc\nOUTPUT_DIRECTORY = -o $(PROJECT_DIR)/bin/\n\nifeq ($(OS),Windows_NT)\n	TARGET_EXTENSION=.exe\nelse\n	TARGET_EXTENSION=.out\n	CLEANUP = rm -f $(PROJECT_DIR)/bin/* ; rm -f $(TARGET) ; mkdir -p $(PROJECT_DIR)/bin\nendif\nTARGET = $(TARGET_BASE)$(TARGET_EXTENSION)\n\n\n#INCLUDE FILES\n\n\n#SYMBOLS\n\n\n#SOURCE FILES\nSOURCE_FILES=$(PROJECT_DIR)/src/main/HelloWorld.c\n\n\n#Check for windows otherwise assume OSX (Darwin) or posix\n#ifeq ($(OS),Windows_NT)\n#else\n#	CLEANUP = rm -f build/* ; rm -f $(TARGET) ; mkdir -p build\n\n#endif\n\nall: clean default\n\ndefault:\n	$(info *** Default Action - Building Project ***)\n	$(COMPILER) $(INC_DIRS) $(SYMBOLS) $(SOURCE_FILES) $(OUTPUT_DIRECTORY)$(TARGET)\n	$(PROJECT_DIR)/bin/$(TARGET)\n	\n\nclean:\n	$(CLEANUP)",
+			"file": "/Users/cjohnson/Documents/Frameworks/Templates/EmbC/makefile",
+			"file_size": 929,
+			"file_write_time": 130509992840000000,
+			"settings":
+			{
+				"buffer_size": 928,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "Packages/Java/JavaC.sublime-build",
+	"build_system": "Packages/Makefile/Make.sublime-build",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -35,10 +54,16 @@
 	},
 	"file_history":
 	[
+		"/Users/cjohnson/Documents/Frameworks/Templates/Cpp/makefile",
+		"/Users/cjohnson/Documents/Frameworks/Templates/Cpp/env/SublimeProject.sublime-project",
+		"/Users/cjohnson/Documents/Frameworks/Templates/Cpp/env/makefile",
+		"/F/DevWorkspaces/Templates/Cpp/env/SublimeProject.sublime-project",
+		"/D/Development/Workspace/Templates/Cpp/makefile",
+		"/D/Development/Workspace/Templates/Cpp/env/SublimeProject.sublime-project"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -72,14 +97,71 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/cjohnson/Documents/Frameworks/Templates/EmbC/src/main/HelloWorld.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/cjohnson/Documents/Frameworks/Templates/EmbC/makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 86.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -119,7 +201,7 @@
 	"project": "SublimeProject.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

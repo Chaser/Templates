@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/F/DevWorkspaces/Templates/Cpp/src/main/HelloWorld.cpp",
-			"settings":
-			{
-				"buffer_size": 106,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/Makefile/Make.sublime-build",
 	"command_palette":
@@ -43,6 +35,9 @@
 	},
 	"file_history":
 	[
+		"/Users/cjohnson/Documents/Frameworks/Templates/Cpp/makefile",
+		"/Users/cjohnson/Documents/Frameworks/Templates/Cpp/env/SublimeProject.sublime-project",
+		"/Users/cjohnson/Documents/Frameworks/Templates/Cpp/env/makefile",
 		"/F/DevWorkspaces/Templates/Cpp/env/SublimeProject.sublime-project",
 		"/D/Development/Workspace/Templates/Cpp/makefile",
 		"/D/Development/Workspace/Templates/Cpp/env/SublimeProject.sublime-project"
@@ -83,37 +78,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/F/DevWorkspaces/Templates/Cpp/src/main/HelloWorld.cpp",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 106,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								106,
-								106
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

@@ -16,7 +16,7 @@ proguard/
 
 # ----------------- C/C++ files ----------------------
 *.exe
-
+*.out
 
 # generated files
 bin/
